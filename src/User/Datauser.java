@@ -29,19 +29,18 @@ public class Datauser {
 	private String password;
 
 	// Database Configuration
-	private static final String DB_URL = "jdbc:mysql://sutnavigator.cf4m2weae4ob.ap-southeast-2.rds.amazonaws.com:3306/sut_navigator"+
-			"?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Bangkok";
+//	private static final String DB_URL = "";
+//
+//	private static final String DB_USER = "admin";
+//
+//	private static final String DB_PASS = "";
 
-	private static final String DB_USER = "admin";
+	 private static final String DB_URL =
+	 "jdbc:mysql://172.27.152.146:3306/sut_navigator";
 
-	private static final String DB_PASS = "dsfsdf32423ws";
+	 private static final String DB_USER = "admin";
 
-	// private static final String DB_URL =
-	// "jdbc:mysql://172.27.152.146:3306/sut_navigator";
-
-	// private static final String DB_USER = "admin";
-
-	// private static final String DB_PASS = "1234";
+	 private static final String DB_PASS = "1234";
 
 	private static final String CACHE_FILE = "cache_data.txt";
 
